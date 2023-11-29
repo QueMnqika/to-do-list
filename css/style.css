@@ -1,0 +1,117 @@
+*{
+    padding: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+img{
+    padding: 5px;
+    margin-left: 35%;
+}
+
+.container{
+    background-color: rgb(255, 118, 69);
+    border-radius: 15px;
+    box-shadow: 0 0 5px #5f534c;
+    margin-left: 35%;
+    padding: 40px;
+    max-width: 30%;
+    margin-top: 5vh;
+}
+
+.inputs label{
+    font-size:  18px;
+    font-weight: bold;
+}
+
+.date, .text{
+    border: none;
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 25px;
+    cursor: text;
+}
+
+.button1, .button2{
+    border: none;
+    border-radius: 15px;
+    font-size: 14px;
+    padding: 13px;
+    margin: 5px 20%;
+    width: 65%;
+}
+
+.button1:hover{
+    border: none;
+    border-radius: 15px;
+    padding: 13px;
+    margin: 5px 20%;
+    width: 65%;
+    background-color: #23e633;
+    font-size: 14px;
+    opacity: 75%;
+    color: #000;
+    cursor: pointer;
+}
+
+.button2:hover{
+    border: none;
+    border-radius: 15px;
+    padding: 13px;
+    margin: 5px 20%;
+    width: 65%;
+    background-color: #e71d1d;
+    font-size: 14px;
+    opacity: 75%;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    border-bottom: 1px solid #000;
+    font-size: 12px;
+    margin-right: 5px;
+    font-style: italic;
+}
+
+.error{
+    color: #fff;
+    background-color: #e71d1d;
+    max-width: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px #500808;
+}
+
+
+.output{
+    background-color: rgba(255, 119, 69, 0.788);
+    border-radius: 15px;
+    position: relative;
+    top: 10px;
+    left: 35%;
+    box-shadow: 0 0 4px #5f534c;
+    max-width: 30%;
+}
+
+.output:hover{
+    background-color: rgba(233, 198, 185, 0.527);
+    border-radius: 15px;
+    box-shadow: 0 0 8px #25211e;
+    max-width: 30%;
+    cursor: pointer;
+}

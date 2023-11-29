@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <img src="https://i.postimg.cc/dVGTGM0Q/Screenshot-2023-05-08-124954.png" alt="Logo" loading="lazy">
+      <hr>
+      <div class="error"></div>
+      
+      <div class="inputs">
+        <label for="date">Date</label>
+        <br>
+        <input id="date" class="date" type="date" name="date">
+      </div>
+      
+      <div class="inputs">
+        <label for="task">Task</label>
+        <br>
+        <textarea id="task" name="task" cols="20" rows="10" class="text" placeholder="What's your Task?"></textarea>
+      </div>
+
+      <div class="buttons">
+        <input class="button1" type="submit" value="Submit">
+        <br>
+        <input class="button2" type="reset" value="Clear">
+      </div>
+    </div>
+    
+    <div class="output" ></div>
+
+    <footer>
+      <p>Copyright &copy; 2023</p>
+      <p>Developed by Que-M Codes</p>
+    </footer>
+    <!-- script -->
+    <script src="./js/code.js"></script>
+  </body>
+</html>
