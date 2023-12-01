@@ -38,4 +38,11 @@ function set() {
     let setItem = localStorage.setItem('', JSON.stringify(tasks()))
 }
 
+function get() {
+    let itemStored = JSON.parse(localStorage.get('items'));
+    // Loads items from local storage when the code runs
+    if (itemStored) {
+        items = itemStored;
+    }
+}
 
