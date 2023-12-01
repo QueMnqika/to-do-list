@@ -29,4 +29,5 @@ button, input{
 
 #outputs{
     background-color: orangered;
+    border-radius: 5px;
 }
