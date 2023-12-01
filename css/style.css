@@ -10,24 +10,98 @@
     margin-top: 10%;
     background-color: coral;
     box-shadow: 0 0 12px black;
-    width: 550px;
+    width: 600px;
     margin-left: 30%;
     padding: 15px;
+    border-radius: 25px;
 }
 
 #container{
     text-align: center;
     padding: 35px;
-    border-radius: 25px;
+    display: flex;
 }
 
 button, input{
     padding: 13px;
     border-radius: 5px;
     border: none;
+    margin: 5px;
 }
 
 #outputs{
-    background-color: orangered;
-    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 5%;
+    width: 600px;
+    margin-left: 30%;
+    padding: 15px;
+    border-radius: 25px;
+    list-style: none;
+}
+
+#output{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 25px;
+    width: 600px;
+    list-style: none;
+}
+
+
+@media screen and (max-width: 560px) {
+    #main-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10%;
+        background-color: coral;
+        box-shadow: 0 0 12px black;
+        width: 200px;
+        margin-left: 30%;
+        padding: 15px;
+        border-radius: 25px;
+    }
+
+    #container{
+        text-align: center;
+        padding: 35px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    button{
+        width: 80px;
+        margin-left: 25%;
+    }
+
+    input{
+        width: 150px;
+        border-radius: 5px;
+        border: none;
+    }
+    
+    #outputs{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 5%;
+        width: 200px;
+        margin-left: 30%;
+        padding: 15px;
+        border-radius: 25px;
+        list-style: none;
+    }
+    
+    #output{
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+        border-radius: 25px;
+        width: 200px;
+        list-style: none;
+    }
 }
